@@ -1,5 +1,15 @@
-# zopflipng-bin ![GitHub Actions Status](https://github.com/imagemin/zopflipng-bin/workflows/test/badge.svg?branch=main)
+# @jimbly/zopflipng-bin
 
+This fork includes the binary dependencies without needing install scripts or run-time internet access.  This fork includes the latest Win32 version which fixes an inability to read some files output by `optipng`.
+
+Fork usage, in package.json:
+```json
+  "overrides": {
+    "zopflipng-bin": "npm:@jimbly/zopflipng-bin@^1.0.0"
+  }
+```
+
+# Original documentation below
 
 > [zopfli](https://github.com/google/zopfli) Compression Algorithm is a new zlib (gzip, deflate) compatible compressor that takes more time (~100x slower), but compresses around 5% better than zlib and better than any other zlib-compatible compressor
 
