@@ -1,5 +1,5 @@
-import path from 'node:path';
+const path = require('path');
 
-export default path.join(import.meta.dirname, '../vendor',
+module.exports = path.join(__dirname, '../vendor',
 	process.platform === 'win32' ? 'win32' : process.platform === 'darwin' ? 'macos' : 'linux',
 	process.platform === 'win32' ? 'zopflipng.exe' : 'zopflipng');

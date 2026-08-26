@@ -1,9 +1,8 @@
 {
   "name": "@jimbly/zopflipng-bin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "`zopflipng` wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "type": "module",
   "exports": "./index.js",
   "author": "Jimb Esser (https://github.com/Jimbly)",
   "homepage": "https://github.com/Jimbly/zopflipng-bin#readme",
