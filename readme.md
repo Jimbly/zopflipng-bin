@@ -1,6 +1,6 @@
 # @jimbly/zopflipng-bin
 
-This fork includes the binary dependencies without needing install scripts or run-time internet access.  This fork includes the latest Win32 version which fixes an inability to read some files output by `optipng`.
+This fork includes the binary dependencies without needing install scripts or run-time internet access.  This fork includes the latest Win32 version which fixes an inability to read some files output by `optipng`, however it seems to then throw errors on _other_ files the old version could read fine, so is only recommended for troubleshooting purposes.
 
 Fork usage, in package.json:
 ```json
